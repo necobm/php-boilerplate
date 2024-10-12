@@ -1,29 +1,17 @@
 <?php
-namespace Sith;
+namespace App;
 
-/**
-* @Simple
-*/
 class Simple
 {
-	
-	protected  $test;
+    protected $test;
 
-	
-	/**
-	 * @return String
-	*/	
-	public function get() : String
-	{
-		return $this->test;
-	}
+    public function get() : string
+    {
+        return $this->test;
+    }
 
-	/**
-	 * @var $test
-	* @return void
-	*/
-	public function set($test) : Void
-	{
-		$this->test = $test; 
-	}
+    public function set($test) : void
+    {
+        $this->test = $test;
+    }
 }

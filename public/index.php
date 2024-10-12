@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
 
-use Sith\Simple;
+use App\Simple;
 
 $test = new Simple;
 
